@@ -538,7 +538,7 @@
     (uuid ffe77d55-2fee-4061-878e-8b4623d8f32e)
   )
 
-  (text "12V @ 2A" (at 107.95 49.53 0)
+  (text "12V MAX 2A" (at 107.95 49.53 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 992fbe57-704e-4e30-81ad-883d470e7216)
   )
