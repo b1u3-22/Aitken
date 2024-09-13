@@ -1,0 +1,166 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "5808be02-ab10-4d78-b304-362dd3e54a60")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 181.61 85.09)
+		(size 21.59 20.32)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "05e9223c-22be-4873-9d5b-c43457a5f867")
+		(property "Sheetname" "Lights"
+			(at 181.61 84.3784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "lights.kicad_sch"
+			(at 181.61 105.9946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Main Board"
+				(path "/5808be02-ab10-4d78-b304-362dd3e54a60"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 120.65 124.46)
+		(size 22.86 22.86)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "99e5ea04-e22c-4f98-8ecf-80ab63f75cb6")
+		(property "Sheetname" "Peripherals"
+			(at 120.65 123.7484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "peripherals.kicad_sch"
+			(at 120.65 147.9046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Main Board"
+				(path "/5808be02-ab10-4d78-b304-362dd3e54a60"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 111.76 83.82)
+		(size 22.86 22.86)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a30ebe94-2586-4659-a7b2-e065ccd7ea50")
+		(property "Sheetname" "Power"
+			(at 111.76 83.1084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power.kicad_sch"
+			(at 111.76 108.5346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Main Board"
+				(path "/5808be02-ab10-4d78-b304-362dd3e54a60"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 142.24 83.82)
+		(size 22.86 22.86)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "c493327b-fd27-47de-be7d-f84285e4309c")
+		(property "Sheetname" "MCU"
+			(at 142.24 83.1084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mcu.kicad_sch"
+			(at 142.24 107.2646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Main Board"
+				(path "/5808be02-ab10-4d78-b304-362dd3e54a60"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)

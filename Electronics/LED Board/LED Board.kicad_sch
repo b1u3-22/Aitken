@@ -1,0 +1,4379 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "bf83d7eb-46c9-4186-b086-b1f78881ae6c")
+	(paper "A5")
+	(lib_symbols
+		(symbol "CLS6B-FKW_1"
+			(pin_names hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D21"
+				(at 0 10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "CLS6B-FKW"
+				(at 0 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "LED_SMD:LED_Cree-PLCC6_4.7x1.5mm"
+				(at -9.398 -24.384 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.cree.com/led-components/media/documents/CLS6B-FKW.pdf"
+				(at -8.128 -28.702 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "Cree PLCC6 3 in 1 SMD LED, PLCC-6"
+				(at 7.874 -36.068 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "LED RGB"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED*Cree*PLCC*4.7x1.5mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "CLS6B-FKW_1_0_1"
+				(rectangle
+					(start -5.08 5.08)
+					(end 5.08 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 -2.54) (xy 5.08 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 0) (xy 5.08 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 2.54) (xy 5.08 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.794 -1.27) (xy -1.778 -0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.794 3.81) (xy -1.778 4.826)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -1.27) (xy -0.762 -0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 3.81) (xy -0.762 4.826)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 -3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 3.81) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 1.27) (xy 3.302 2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 1.27) (xy 4.318 2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 1.27) (xy 3.81 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 4.572) (xy -1.778 4.826) (xy -2.032 4.064)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -1.016) (xy -1.778 -0.254) (xy -2.54 -0.508)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 -0.508) (xy -0.762 -0.254) (xy -1.016 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 4.572) (xy -0.762 4.826) (xy -1.016 4.064)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.048 1.524) (xy 3.302 2.286) (xy 2.54 2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.556 2.032) (xy 4.318 2.286) (xy 4.064 1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 -1.27) (xy -3.81 -3.81) (xy -1.27 -2.54) (xy -3.81 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 3.81) (xy -3.81 1.27) (xy -1.27 2.54) (xy -3.81 3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy 3.81 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "CLS6B-FKW_1_1_0"
+				(text "1\n"
+					(at -0.635 1.8034 0)
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(text "2\n"
+					(at 4.4196 -0.7112 0)
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(text "3\n"
+					(at -0.635 -3.3274 0)
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(symbol "CLS6B-FKW_1_1_1"
+				(pin passive line
+					(at 7.62 -2.54 180)
+					(length 2.54)
+					(name "AB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "KB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 2.54 180)
+					(length 2.54)
+					(name "AR"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "KR"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "AG"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "KR"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Connector_Generic:Conn_01x06"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x06"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x06_1_1"
+				(rectangle
+					(start -1.27 -7.493)
+					(end 0 -7.747)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 5.207)
+					(end 0 4.953)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 6.35)
+					(end 1.27 -8.89)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -5.08 5.08 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 3.81)
+					(name "Pin_5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -7.62 0)
+					(length 3.81)
+					(name "Pin_6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Mechanical:MountingHole"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim yes)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole without connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 25.4 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "043210fc-7af1-4509-aad1-ed1b5a943cd4")
+	)
+	(junction
+		(at 180.34 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "32a6c81d-8305-404d-9fb4-624b57b38cf7")
+	)
+	(junction
+		(at 24.13 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9ffbea52-ed96-4ed9-83c7-4ce0a5dfa1b3")
+	)
+	(junction
+		(at 179.07 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "aaf9bbfd-5d9d-43d5-8bbd-6b80ea6e0bb1")
+	)
+	(junction
+		(at 25.4 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bac5a7c4-f540-492e-93f9-564f1594bc29")
+	)
+	(junction
+		(at 180.34 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c964259b-887d-40a3-8c5f-bbfe6e68d3a2")
+	)
+	(wire
+		(pts
+			(xy 179.07 76.2) (xy 179.07 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "003fde04-0b41-4ab8-a165-b75608f5b9a9")
+	)
+	(wire
+		(pts
+			(xy 39.37 118.11) (xy 38.1 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "094fbaf3-d360-495a-81e8-0946c4770647")
+	)
+	(wire
+		(pts
+			(xy 24.13 73.66) (xy 25.4 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a36c6f4-cc2e-41a1-81e3-cacd0d40ecf1")
+	)
+	(wire
+		(pts
+			(xy 24.13 73.66) (xy 24.13 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d243c5c-a608-4676-bf72-7e7f60d53472")
+	)
+	(wire
+		(pts
+			(xy 25.4 54.61) (xy 25.4 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11c81631-f326-463e-8f9d-f400de2dcbd6")
+	)
+	(wire
+		(pts
+			(xy 179.07 38.1) (xy 180.34 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b1be2c4-a8c5-4fb6-a050-4b5dd9e6bb9e")
+	)
+	(wire
+		(pts
+			(xy 21.59 73.66) (xy 24.13 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "212a8505-6784-43b8-8704-441f50edbcef")
+	)
+	(wire
+		(pts
+			(xy 25.4 35.56) (xy 25.4 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26523d6e-3e5c-4205-9119-59e395814528")
+	)
+	(wire
+		(pts
+			(xy 39.37 120.65) (xy 38.1 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f03507e-7ce1-4073-b501-5a92653da163")
+	)
+	(wire
+		(pts
+			(xy 22.86 54.61) (xy 25.4 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49ac0927-21ca-4cbb-a775-0c129c2937f7")
+	)
+	(wire
+		(pts
+			(xy 180.34 57.15) (xy 180.34 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b1f275a-afab-4858-8928-d6986bf42d0b")
+	)
+	(wire
+		(pts
+			(xy 39.37 123.19) (xy 38.1 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55eb1476-70f4-4369-ad02-735b884124b7")
+	)
+	(wire
+		(pts
+			(xy 24.13 76.2) (xy 25.4 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "571327c5-b20a-4fa3-8ea6-e2fb92657972")
+	)
+	(wire
+		(pts
+			(xy 24.13 71.12) (xy 25.4 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f8b970a-9ac4-4543-a7db-d7408c0e09e5")
+	)
+	(wire
+		(pts
+			(xy 180.34 38.1) (xy 180.34 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "753241e6-94d9-4188-9002-eae8d26b7abe")
+	)
+	(wire
+		(pts
+			(xy 25.4 35.56) (xy 26.67 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75e1eca9-da79-40a3-b19c-eec2c1a02704")
+	)
+	(wire
+		(pts
+			(xy 25.4 35.56) (xy 25.4 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "782faf81-4700-4e12-a6bd-cdedb409e673")
+	)
+	(wire
+		(pts
+			(xy 25.4 54.61) (xy 26.67 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ce84564-1c91-473a-aa1e-6f1f0855ef09")
+	)
+	(wire
+		(pts
+			(xy 179.07 52.07) (xy 180.34 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "814a52e7-2363-479e-8480-536e9bd13eab")
+	)
+	(wire
+		(pts
+			(xy 179.07 73.66) (xy 181.61 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9106829e-9e0a-4ce6-a4be-ccf77749b00f")
+	)
+	(wire
+		(pts
+			(xy 25.4 52.07) (xy 26.67 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e536c32-f908-4a29-82ed-dc70ffdedeaa")
+	)
+	(wire
+		(pts
+			(xy 179.07 35.56) (xy 180.34 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a07ab652-4cdc-47bb-8338-10c62f25fe74")
+	)
+	(wire
+		(pts
+			(xy 177.8 71.12) (xy 179.07 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a230c087-bf82-4c31-b8e4-42c2d7f76691")
+	)
+	(wire
+		(pts
+			(xy 39.37 110.49) (xy 38.1 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a246cda6-3a53-48a4-b367-15b3931d633d")
+	)
+	(wire
+		(pts
+			(xy 24.13 35.56) (xy 25.4 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a331d98c-8de6-4261-b592-411c0cd919e5")
+	)
+	(wire
+		(pts
+			(xy 25.4 54.61) (xy 25.4 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab784c12-1555-4ab3-8608-ffc7e825eca5")
+	)
+	(wire
+		(pts
+			(xy 177.8 73.66) (xy 179.07 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2fad600-4c12-4315-9502-8c42873a167f")
+	)
+	(wire
+		(pts
+			(xy 39.37 115.57) (xy 38.1 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b360fa18-7377-4e93-80e3-78f6c85a89e2")
+	)
+	(wire
+		(pts
+			(xy 25.4 57.15) (xy 26.67 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8fc965b-7b91-4b02-a9a6-52634ccebd74")
+	)
+	(wire
+		(pts
+			(xy 180.34 35.56) (xy 181.61 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf854e33-3c3f-4c65-b3be-3fc9bff857c5")
+	)
+	(wire
+		(pts
+			(xy 179.07 33.02) (xy 180.34 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7133d19-92b1-4c4c-a238-4178bd3e5c13")
+	)
+	(wire
+		(pts
+			(xy 179.07 54.61) (xy 180.34 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cfc8905f-025f-41b8-abc8-4d1e02c0acda")
+	)
+	(wire
+		(pts
+			(xy 38.1 113.03) (xy 39.37 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d50b48a7-8501-423b-b156-5e75b48b38b3")
+	)
+	(wire
+		(pts
+			(xy 180.34 52.07) (xy 180.34 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d794695a-d9e9-4b14-9727-6daaa46d875c")
+	)
+	(wire
+		(pts
+			(xy 179.07 57.15) (xy 180.34 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db311e47-84e7-40fc-9fa9-6969328300f8")
+	)
+	(wire
+		(pts
+			(xy 180.34 54.61) (xy 182.88 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de2824fe-7a16-4134-8928-a77b6c6c8405")
+	)
+	(wire
+		(pts
+			(xy 25.4 33.02) (xy 26.67 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e650be51-a4f9-47ec-9a76-46ed8f4d77dd")
+	)
+	(wire
+		(pts
+			(xy 180.34 33.02) (xy 180.34 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ead4bb08-8693-4dd6-817f-702071471e00")
+	)
+	(wire
+		(pts
+			(xy 177.8 76.2) (xy 179.07 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4956f38-2f15-49cb-8ba6-443092cf3265")
+	)
+	(wire
+		(pts
+			(xy 25.4 38.1) (xy 26.67 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f71b68f2-f86a-4334-966d-fa970ba41348")
+	)
+	(wire
+		(pts
+			(xy 24.13 73.66) (xy 24.13 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f861a171-bbcf-4a73-ae0d-9eba975483b2")
+	)
+	(wire
+		(pts
+			(xy 179.07 71.12) (xy 179.07 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8a5e3cf-1e83-4c92-ad05-d0e72420af75")
+	)
+	(text "LEDs used: GETIAN GT-M50503R620-0\nIf other type is used instead, the R_{ISET} \nresistor of each lights supply on \nthe main board has to be changed accordingly"
+		(exclude_from_sim no)
+		(at 98.044 -7.112 0)
+		(effects
+			(font
+				(size 0.762 0.762)
+			)
+			(justify left)
+		)
+		(uuid "5bda58b9-1fc4-43dd-ad6c-446338a8d113")
+	)
+	(global_label "GND_2"
+		(shape input)
+		(at 39.37 118.11 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1674a151-c596-4a2d-8a48-c7af304aacdb")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 47.4618 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND_2"
+		(shape output)
+		(at 182.88 54.61 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3adea197-37d7-4b39-939d-0461d3b1926d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 190.9718 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SIG_3"
+		(shape output)
+		(at 39.37 120.65 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3e62a46f-3d27-4a20-aa66-00a9b3933a94")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 47.4618 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SIG_3"
+		(shape input)
+		(at 21.59 73.66 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6343b5fa-a41d-41e4-bfac-fd351bc68601")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 13.4982 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SIG_2"
+		(shape input)
+		(at 22.86 54.61 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "83229b1a-2bd3-49bc-9126-c5c91be3a390")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 14.7682 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND_1"
+		(shape input)
+		(at 39.37 113.03 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9110f2ba-5628-44f4-a265-5fa2e16e57be")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 47.4618 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SIG_1"
+		(shape output)
+		(at 39.37 110.49 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9e8cd895-0f80-4dbd-ac1d-2bd410822416")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 47.4618 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SIG_1"
+		(shape input)
+		(at 24.13 35.56 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b0178656-9d03-4f43-a0f4-82b70fe2ff32")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 16.0382 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND_3"
+		(shape input)
+		(at 39.37 123.19 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b939b79a-270d-4184-8f57-31c00f392ffb")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 47.4618 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND_1"
+		(shape output)
+		(at 181.61 35.56 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ef0dffb1-202d-46b7-9b80-924693ef5713")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 189.7018 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SIG_2"
+		(shape output)
+		(at 39.37 115.57 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f5f2f3d8-efb0-4ef2-9590-ca69ccbcef01")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 47.4618 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND_3"
+		(shape output)
+		(at 181.61 73.66 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f70a6676-0e30-4e94-949e-a05f03cd57da")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 189.7018 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_name "CLS6B-FKW_1")
+		(lib_id "LED:CLS6B-FKW")
+		(at 80.01 35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "007b252e-c0ca-4afc-83b6-89c4b2800673")
+		(property "Reference" "D4"
+			(at 80.01 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CLS6B-FKW"
+			(at 80.01 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_RGB_5050-6"
+			(at 70.612 59.944 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.cree.com/led-components/media/documents/CLS6B-FKW.pdf"
+			(at 71.882 64.262 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Cree PLCC6 3 in 1 SMD LED, PLCC-6"
+			(at 87.884 71.628 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dc8cc6d6-140f-4d9b-9f58-0173d1affc12")
+		)
+		(pin "5"
+			(uuid "8fe5688f-ab6b-4c20-afd2-71ee6f7deb10")
+		)
+		(pin "3"
+			(uuid "831bbfdd-751b-44a0-bc46-6bbc7b41d27a")
+		)
+		(pin "2"
+			(uuid "ad472f3e-6c2a-4fd3-b7f6-b7cae274beed")
+		)
+		(pin "4"
+			(uuid "c1aae1b1-8847-4f2f-8fdd-f4bb9ca8ad3c")
+		)
+		(pin "6"
+			(uuid "8b8d4175-ef6a-43ad-bc51-2596c91517e2")
+		)
+		(instances
+			(project "LED Board"
+				(path "/bf83d7eb-46c9-4186-b086-b1f78881ae6c"
+					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "CLS6B-FKW_1")
+		(lib_id "LED:CLS6B-FKW")
+		(at 110.49 35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "031eb1ae-e662-499b-819c-6f0645045368")
+		(property "Reference" "D6"
+			(at 110.49 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CLS6B-FKW"
+			(at 110.49 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_RGB_5050-6"
+			(at 101.092 59.944 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.cree.com/led-components/media/documents/CLS6B-FKW.pdf"
+			(at 102.362 64.262 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Cree PLCC6 3 in 1 SMD LED, PLCC-6"
+			(at 118.364 71.628 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8eaea16e-bae1-4fa5-aa6f-f7265be5014e")
+		)
+		(pin "5"
+			(uuid "cb7b3101-f5d7-44f0-86c1-f6788cbd263a")
+		)
+		(pin "3"
+			(uuid "f3388665-a604-466b-91e9-8fc7b63c1613")
+		)
+		(pin "2"
+			(uuid "108700e7-18ce-41d5-9e98-595305e7940b")
+		)
+		(pin "4"
+			(uuid "5b385859-9242-436c-9ee6-96415728f5df")
+		)
+		(pin "6"
+			(uuid "8ebb2bd0-e73b-4970-846d-afed1b0c828c")
+		)
+		(instances
+			(project "LED Board"
+				(path "/bf83d7eb-46c9-4186-b086-b1f78881ae6c"
+					(reference "D6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "CLS6B-FKW_1")
+		(lib_id "LED:CLS6B-FKW")
+		(at 170.18 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "03efd8e3-4142-4bc5-b577-45aa24422b2d")
+		(property "Reference" "D30"
+			(at 170.18 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CLS6B-FKW"
+			(at 170.18 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_RGB_5050-6"
+			(at 160.782 98.044 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.cree.com/led-components/media/documents/CLS6B-FKW.pdf"
+			(at 162.052 102.362 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Cree PLCC6 3 in 1 SMD LED, PLCC-6"
+			(at 178.054 109.728 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f352bf09-0c6a-48f9-b595-341da37748b2")
+		)
+		(pin "5"
+			(uuid "dd56335c-0cdc-4272-a7f5-0127c8e635d9")
+		)
+		(pin "3"
+			(uuid "82c5f1eb-8359-4608-918f-9e6f61d9053a")
+		)
+		(pin "2"
+			(uuid "7364632e-3f80-4b53-ab14-b3624800cad6")
+		)
+		(pin "4"
+			(uuid "2f423325-c484-44fc-ad26-f7ae6e464927")
+		)
+		(pin "6"
+			(uuid "9373a35b-cdd4-4208-8327-1501cbba5091")
+		)
+		(instances
+			(project "LED Board"
+				(path "/bf83d7eb-46c9-4186-b086-b1f78881ae6c"
+					(reference "D30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "CLS6B-FKW_1")
+		(lib_id "LED:CLS6B-FKW")
+		(at 95.25 35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "06f61d7f-67af-47a5-851f-75ddc44117e2")
+		(property "Reference" "D5"
+			(at 95.25 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CLS6B-FKW"
+			(at 95.25 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_RGB_5050-6"
+			(at 85.852 59.944 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.cree.com/led-components/media/documents/CLS6B-FKW.pdf"
+			(at 87.122 64.262 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Cree PLCC6 3 in 1 SMD LED, PLCC-6"
+			(at 103.124 71.628 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6a0d6f6d-7141-4931-8bdc-39b5c680b6b2")
+		)
+		(pin "5"
+			(uuid "14c7094a-082b-40f7-8087-9b7491cf3353")
+		)
+		(pin "3"
+			(uuid "ab87b86e-ec29-4a50-ad88-871ba2da5a37")
+		)
+		(pin "2"
+			(uuid "9333dbc4-a661-441d-87aa-37fd317eef03")
+		)
+		(pin "4"
+			(uuid "b9c5b33e-416b-4f86-a14b-479bdeef068b")
+		)
+		(pin "6"
+			(uuid "17b2d5f8-bf54-4abb-b6a1-ff46da9ceb1c")
+		)
+		(instances
+			(project "LED Board"
+				(path "/bf83d7eb-46c9-4186-b086-b1f78881ae6c"
+					(reference "D5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "CLS6B-FKW_1")
+		(lib_id "LED:CLS6B-FKW")
+		(at 33.02 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "07e17fe0-3b4a-445d-8e88-7db7f945b483")
+		(property "Reference" "D21"
+			(at 33.02 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CLS6B-FKW"
+			(at 33.02 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_RGB_5050-6"
+			(at 23.622 98.044 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.cree.com/led-components/media/documents/CLS6B-FKW.pdf"
+			(at 24.892 102.362 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Cree PLCC6 3 in 1 SMD LED, PLCC-6"
+			(at 40.894 109.728 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6a249255-0ecc-4b7c-aded-92d48821310f")
+		)
+		(pin "5"
+			(uuid "666fdb2a-69ef-4e5c-99f6-3b3deea8e1f0")
+		)
+		(pin "3"
+			(uuid "04465b87-f38d-41ac-8720-56cc83596430")
+		)
+		(pin "2"
+			(uuid "59ea37dc-f98b-4054-adb1-5b52198632cd")
+		)
+		(pin "4"
+			(uuid "186ef958-1948-4045-b940-c4733daf66f7")
+		)
+		(pin "6"
+			(uuid "68a0090c-1110-47a9-8e16-80266c06b7f5")
+		)
+		(instances
+			(project "LED Board"
+				(path "/bf83d7eb-46c9-4186-b086-b1f78881ae6c"
+					(reference "D21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "CLS6B-FKW_1")
+		(lib_id "LED:CLS6B-FKW")
+		(at 171.45 35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "099b3f29-5ea3-4402-a3fe-656f9fef7cf4")
+		(property "Reference" "D10"
+			(at 171.45 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CLS6B-FKW"
+			(at 171.45 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_RGB_5050-6"
+			(at 162.052 59.944 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.cree.com/led-components/media/documents/CLS6B-FKW.pdf"
+			(at 163.322 64.262 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Cree PLCC6 3 in 1 SMD LED, PLCC-6"
+			(at 179.324 71.628 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dcddb3a5-1774-4ef1-b953-8b72369e1c0f")
+		)
+		(pin "5"
+			(uuid "0909c137-05ae-4577-95fa-897b72a2e969")
+		)
+		(pin "3"
+			(uuid "50d3e729-a872-4a54-a2aa-ecb70b3e749b")
+		)
+		(pin "2"
+			(uuid "318ee31d-6847-46a4-a5c7-57d8ca5cd168")
+		)
+		(pin "4"
+			(uuid "618e21d1-d5d2-4fc4-b2c2-a02fd6c2d2f2")
+		)
+		(pin "6"
+			(uuid "8854347f-dcee-4b3a-b170-83f3d2cc1dbe")
+		)
+		(instances
+			(project "LED Board"
+				(path "/bf83d7eb-46c9-4186-b086-b1f78881ae6c"
+					(reference "D10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "CLS6B-FKW_1")
+		(lib_id "LED:CLS6B-FKW")
+		(at 34.29 54.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0de8978a-cc16-4afa-ac9c-a8e4ca2db21a")
+		(property "Reference" "D11"
+			(at 34.29 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CLS6B-FKW"
+			(at 34.29 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_RGB_5050-6"
+			(at 24.892 78.994 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.cree.com/led-components/media/documents/CLS6B-FKW.pdf"
+			(at 26.162 83.312 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Cree PLCC6 3 in 1 SMD LED, PLCC-6"
+			(at 42.164 90.678 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "437f0c0c-ac22-4cae-a21c-77f568cbe129")
+		)
+		(pin "5"
+			(uuid "c36a6361-372a-4a31-9580-7756f9dcab53")
+		)
+		(pin "3"
+			(uuid "13bfa02e-1d9e-432a-99a7-adb8291c4f53")
+		)
+		(pin "2"
+			(uuid "30a27c11-6654-4f70-b257-f4ad4aed3ce6")
+		)
+		(pin "4"
+			(uuid "fa3d874a-246b-4d33-80db-a1afc3ef693b")
+		)
+		(pin "6"
+			(uuid "0d95451c-2468-41a0-b555-77616e90c43d")
+		)
+		(instances
+			(project "LED Board"
+				(path "/bf83d7eb-46c9-4186-b086-b1f78881ae6c"
+					(reference "D11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "CLS6B-FKW_1")
+		(lib_id "LED:CLS6B-FKW")
+		(at 140.97 35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "18d941b3-0cab-41e9-8b05-58e4a8b769df")
+		(property "Reference" "D8"
+			(at 140.97 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CLS6B-FKW"
+			(at 140.97 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_RGB_5050-6"
+			(at 131.572 59.944 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.cree.com/led-components/media/documents/CLS6B-FKW.pdf"
+			(at 132.842 64.262 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Cree PLCC6 3 in 1 SMD LED, PLCC-6"
+			(at 148.844 71.628 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ee7978f3-b103-4d0b-9365-dc7075df0186")
+		)
+		(pin "5"
+			(uuid "54fbe96c-3a7b-4a15-8106-a683d0e4595f")
+		)
+		(pin "3"
+			(uuid "66202818-c6cb-4cd6-ad17-c5f770ec8d1a")
+		)
+		(pin "2"
+			(uuid "a0d5784a-82c9-4288-b458-55697f5b0ba9")
+		)
+		(pin "4"
+			(uuid "57cca7e9-cf4a-405f-92a1-87f01fe84678")
+		)
+		(pin "6"
+			(uuid "55357e0a-8b60-44a0-885c-58241658c201")
+		)
+		(instances
+			(project "LED Board"
+				(path "/bf83d7eb-46c9-4186-b086-b1f78881ae6c"
+					(reference "D8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 96.52 92.71 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1c4fb67f-3780-4ab0-ae64-33f0d380a440")
+		(property "Reference" "H3"
+			(at 99.06 91.4399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "M3"
+			(at 99.06 93.9799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
+			(at 96.52 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 96.52 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 96.52 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "LED Board"
+				(path "/bf83d7eb-46c9-4186-b086-b1f78881ae6c"
+					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "CLS6B-FKW_1")
+		(lib_id "LED:CLS6B-FKW")
+		(at 63.5 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "23373445-72dd-41be-897e-7059cdc1bbf0")
+		(property "Reference" "D23"
+			(at 63.5 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CLS6B-FKW"
+			(at 63.5 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_RGB_5050-6"
+			(at 54.102 98.044 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.cree.com/led-components/media/documents/CLS6B-FKW.pdf"
+			(at 55.372 102.362 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Cree PLCC6 3 in 1 SMD LED, PLCC-6"
+			(at 71.374 109.728 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d0428733-1171-45a8-b0dc-8e318c8eb073")
+		)
+		(pin "5"
+			(uuid "b2ec4678-972e-42a1-a5d8-4f8ae3c05892")
+		)
+		(pin "3"
+			(uuid "aeb2f5e7-e3a9-4c59-922f-d87b8008215b")
+		)
+		(pin "2"
+			(uuid "fc1dad4d-75fd-448d-8ccb-c21c04655f69")
+		)
+		(pin "4"
+			(uuid "8b10f2fc-7212-4f06-bfde-88dd8ce54d8c")
+		)
+		(pin "6"
+			(uuid "6be3ba96-1612-48fa-9f27-310479f98d73")
+		)
+		(instances
+			(project "LED Board"
+				(path "/bf83d7eb-46c9-4186-b086-b1f78881ae6c"
+					(reference "D23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "CLS6B-FKW_1")
+		(lib_id "LED:CLS6B-FKW")
+		(at 140.97 54.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2339ae16-3f02-4fe9-b341-fa806d1d902c")
+		(property "Reference" "D18"
+			(at 140.97 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CLS6B-FKW"
+			(at 140.97 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_RGB_5050-6"
+			(at 131.572 78.994 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.cree.com/led-components/media/documents/CLS6B-FKW.pdf"
+			(at 132.842 83.312 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Cree PLCC6 3 in 1 SMD LED, PLCC-6"
+			(at 148.844 90.678 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "da618bf0-24d6-4d09-a30e-6e71e5b0f9aa")
+		)
+		(pin "5"
+			(uuid "020565f9-89df-4c06-bbf7-4ccc8461de70")
+		)
+		(pin "3"
+			(uuid "bad01401-9501-4c57-b841-5b49482543aa")
+		)
+		(pin "2"
+			(uuid "24827f21-1b63-40a7-8480-fa40199986d1")
+		)
+		(pin "4"
+			(uuid "01365ba8-178f-4f7c-b969-bc579ba6d8c5")
+		)
+		(pin "6"
+			(uuid "b81bc3f4-928b-4e42-bf59-9f128d0ed406")
+		)
+		(instances
+			(project "LED Board"
+				(path "/bf83d7eb-46c9-4186-b086-b1f78881ae6c"
+					(reference "D18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "CLS6B-FKW_1")
+		(lib_id "LED:CLS6B-FKW")
+		(at 93.98 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3716fbc2-2099-474d-938f-5e1aed0ce583")
+		(property "Reference" "D25"
+			(at 93.98 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CLS6B-FKW"
+			(at 93.98 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_RGB_5050-6"
+			(at 84.582 98.044 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.cree.com/led-components/media/documents/CLS6B-FKW.pdf"
+			(at 85.852 102.362 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Cree PLCC6 3 in 1 SMD LED, PLCC-6"
+			(at 101.854 109.728 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "81435aee-f45b-47b2-b0e9-7446f89f3da8")
+		)
+		(pin "5"
+			(uuid "363f2f69-1bb0-4b8a-9338-f278ac8b97f9")
+		)
+		(pin "3"
+			(uuid "521cf6e6-96c8-4527-8e69-0007c77a8545")
+		)
+		(pin "2"
+			(uuid "fdda4142-42ca-402e-b90e-51fb89ae8435")
+		)
+		(pin "4"
+			(uuid "55aca684-d5f3-4977-862f-688bffc52825")
+		)
+		(pin "6"
+			(uuid "c996acd5-7927-40df-a24d-f044ba92969a")
+		)
+		(instances
+			(project "LED Board"
+				(path "/bf83d7eb-46c9-4186-b086-b1f78881ae6c"
+					(reference "D25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x06")
+		(at 33.02 115.57 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "41ee8267-d439-4d8d-8ab7-65bc037c91e3")
+		(property "Reference" "J1"
+			(at 33.02 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LIGHTS Connector"
+			(at 33.02 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_XH_B6B-XH-A_1x06_P2.50mm_Vertical"
+			(at 33.02 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 33.02 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 33.02 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "ad29838d-b0c9-4407-a23d-986bcc893f38")
+		)
+		(pin "2"
+			(uuid "caf3e7ed-b243-4c79-b928-afa7e808330c")
+		)
+		(pin "5"
+			(uuid "97b446ad-a39e-4832-9aaf-f2ad86a03fbd")
+		)
+		(pin "4"
+			(uuid "2b507807-8004-419d-922d-eca902f81ea5")
+		)
+		(pin "3"
+			(uuid "c7ebc147-1788-4caf-8730-25dc6e3fccfe")
+		)
+		(pin "1"
+			(uuid "2fdf05ff-aba0-4e20-afa4-e6f440052110")
+		)
+		(instances
+			(project ""
+				(path "/bf83d7eb-46c9-4186-b086-b1f78881ae6c"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "CLS6B-FKW_1")
+		(lib_id "LED:CLS6B-FKW")
+		(at 49.53 54.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4f67fae8-1283-433c-836e-f65e0f400dce")
+		(property "Reference" "D12"
+			(at 49.53 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CLS6B-FKW"
+			(at 49.53 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_RGB_5050-6"
+			(at 40.132 78.994 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.cree.com/led-components/media/documents/CLS6B-FKW.pdf"
+			(at 41.402 83.312 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Cree PLCC6 3 in 1 SMD LED, PLCC-6"
+			(at 57.404 90.678 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "56060089-2260-452e-83bd-f47e42ee60a3")
+		)
+		(pin "5"
+			(uuid "40120e1b-914d-4479-8c04-c3d529e77802")
+		)
+		(pin "3"
+			(uuid "b920b119-bf1c-4978-8042-f54f5fa7fabf")
+		)
+		(pin "2"
+			(uuid "5514bf89-f13e-4aa4-93f9-d6d7861337da")
+		)
+		(pin "4"
+			(uuid "12421610-2a30-44ad-8971-4a3f66e8aec7")
+		)
+		(pin "6"
+			(uuid "d306f758-c59e-45f4-bf07-521257a09197")
+		)
+		(instances
+			(project "LED Board"
+				(path "/bf83d7eb-46c9-4186-b086-b1f78881ae6c"
+					(reference "D12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "CLS6B-FKW_1")
+		(lib_id "LED:CLS6B-FKW")
+		(at 64.77 54.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "68eb328b-604a-4e15-8c6b-cb1fc898b24d")
+		(property "Reference" "D13"
+			(at 64.77 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CLS6B-FKW"
+			(at 64.77 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_RGB_5050-6"
+			(at 55.372 78.994 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.cree.com/led-components/media/documents/CLS6B-FKW.pdf"
+			(at 56.642 83.312 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Cree PLCC6 3 in 1 SMD LED, PLCC-6"
+			(at 72.644 90.678 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4376f573-894c-4974-bc4f-cf5ec7fb6341")
+		)
+		(pin "5"
+			(uuid "e7b23741-d0b9-4c2f-b3e3-e0fae46eb600")
+		)
+		(pin "3"
+			(uuid "493c7ca8-92f6-478c-9c8e-b45e9ee816cc")
+		)
+		(pin "2"
+			(uuid "e7a4ccda-dc2c-47d7-83dd-6120587fe2a5")
+		)
+		(pin "4"
+			(uuid "0aefbc8b-56ea-4efd-b6f5-e10977bb5dd6")
+		)
+		(pin "6"
+			(uuid "855bdd9b-d4ac-43f1-830b-33988226c90b")
+		)
+		(instances
+			(project "LED Board"
+				(path "/bf83d7eb-46c9-4186-b086-b1f78881ae6c"
+					(reference "D13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 80.9773 92.5898 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6ad5686d-b654-469d-a5a8-dd95ea3e938c")
+		(property "Reference" "H1"
+			(at 83.5173 91.3197 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "M3"
+			(at 83.5173 93.8597 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
+			(at 80.9773 92.5898 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 80.9773 92.5898 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 80.9773 92.5898 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "LED Board"
+				(path "/bf83d7eb-46c9-4186-b086-b1f78881ae6c"
+					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "CLS6B-FKW_1")
+		(lib_id "LED:CLS6B-FKW")
+		(at 80.01 54.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6bcddff5-1139-42e0-8ae1-e9062bb87669")
+		(property "Reference" "D14"
+			(at 80.01 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CLS6B-FKW"
+			(at 80.01 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_RGB_5050-6"
+			(at 70.612 78.994 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.cree.com/led-components/media/documents/CLS6B-FKW.pdf"
+			(at 71.882 83.312 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Cree PLCC6 3 in 1 SMD LED, PLCC-6"
+			(at 87.884 90.678 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "545ee56a-df3b-4d3b-8bf1-aad5e2fcc49d")
+		)
+		(pin "5"
+			(uuid "1baf7f22-8575-4f03-bd0d-7ea22f23abc9")
+		)
+		(pin "3"
+			(uuid "d82e1819-efb3-4277-a606-ca0b7713a3d3")
+		)
+		(pin "2"
+			(uuid "648f5093-f2ce-4b61-a325-3ad29c2afeb1")
+		)
+		(pin "4"
+			(uuid "55d68743-3b18-4cb8-a1ca-c21a141c919d")
+		)
+		(pin "6"
+			(uuid "c5c46794-c4a2-4f31-acac-58eb4b52d2bb")
+		)
+		(instances
+			(project "LED Board"
+				(path "/bf83d7eb-46c9-4186-b086-b1f78881ae6c"
+					(reference "D14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "CLS6B-FKW_1")
+		(lib_id "LED:CLS6B-FKW")
+		(at 139.7 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "70e66803-1fcb-4547-a115-84e471912056")
+		(property "Reference" "D28"
+			(at 139.7 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CLS6B-FKW"
+			(at 139.7 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_RGB_5050-6"
+			(at 130.302 98.044 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.cree.com/led-components/media/documents/CLS6B-FKW.pdf"
+			(at 131.572 102.362 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Cree PLCC6 3 in 1 SMD LED, PLCC-6"
+			(at 147.574 109.728 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e278daec-e28f-44d9-9e34-63b589b26fa0")
+		)
+		(pin "5"
+			(uuid "7a687601-7d14-497b-9450-38e8e64a48f4")
+		)
+		(pin "3"
+			(uuid "aacc3680-2e9a-4d12-8dbe-443462b8f569")
+		)
+		(pin "2"
+			(uuid "aa9a34d6-6925-4d4f-bfb0-9a2c28d90fe4")
+		)
+		(pin "4"
+			(uuid "1e52b151-ae00-4844-bf13-6ed79f826475")
+		)
+		(pin "6"
+			(uuid "4735e64a-0b21-41ec-b242-81cb7fe7da9e")
+		)
+		(instances
+			(project "LED Board"
+				(path "/bf83d7eb-46c9-4186-b086-b1f78881ae6c"
+					(reference "D28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 104.14 92.71 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7d839223-e2ff-4114-a8ca-e9280227e2f3")
+		(property "Reference" "H4"
+			(at 106.68 91.4399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "M3"
+			(at 106.68 93.9799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
+			(at 104.14 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 104.14 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 104.14 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "LED Board"
+				(path "/bf83d7eb-46c9-4186-b086-b1f78881ae6c"
+					(reference "H4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "CLS6B-FKW_1")
+		(lib_id "LED:CLS6B-FKW")
+		(at 110.49 54.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8af256eb-c6cc-4ff5-af5f-8751788fd6b8")
+		(property "Reference" "D16"
+			(at 110.49 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CLS6B-FKW"
+			(at 110.49 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_RGB_5050-6"
+			(at 101.092 78.994 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.cree.com/led-components/media/documents/CLS6B-FKW.pdf"
+			(at 102.362 83.312 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Cree PLCC6 3 in 1 SMD LED, PLCC-6"
+			(at 118.364 90.678 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cb58c52c-dd78-48e1-ab5c-01e49a158ba6")
+		)
+		(pin "5"
+			(uuid "358c202b-862a-464c-8181-8bd05b02e88a")
+		)
+		(pin "3"
+			(uuid "1ccf254d-3222-4c9d-bc50-4fb5368c0faa")
+		)
+		(pin "2"
+			(uuid "76f5cee6-ae10-4ca7-9e9c-29375c5b32e3")
+		)
+		(pin "4"
+			(uuid "fc918249-399e-48ff-b7d2-0b66f86cff47")
+		)
+		(pin "6"
+			(uuid "8f3fbd44-6631-491f-9220-4ab2a4c3b313")
+		)
+		(instances
+			(project "LED Board"
+				(path "/bf83d7eb-46c9-4186-b086-b1f78881ae6c"
+					(reference "D16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "CLS6B-FKW_1")
+		(lib_id "LED:CLS6B-FKW")
+		(at 125.73 35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "928fb8a3-0214-4780-9958-476c67593207")
+		(property "Reference" "D7"
+			(at 125.73 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CLS6B-FKW"
+			(at 125.73 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_RGB_5050-6"
+			(at 116.332 59.944 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.cree.com/led-components/media/documents/CLS6B-FKW.pdf"
+			(at 117.602 64.262 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Cree PLCC6 3 in 1 SMD LED, PLCC-6"
+			(at 133.604 71.628 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "01f8df01-65b7-4220-a978-a0a92cec139f")
+		)
+		(pin "5"
+			(uuid "2ee67254-1cee-4401-af2b-40cfbbb08d92")
+		)
+		(pin "3"
+			(uuid "c6f38420-c7fe-416f-acb9-996ea9a4f45e")
+		)
+		(pin "2"
+			(uuid "75a724bf-76b0-4d00-9723-d0241729bdd9")
+		)
+		(pin "4"
+			(uuid "d81bff5d-ed78-4f2a-8e13-dd5d4c84e286")
+		)
+		(pin "6"
+			(uuid "feb435e6-7cce-46f2-8e94-f1419ee3db93")
+		)
+		(instances
+			(project "LED Board"
+				(path "/bf83d7eb-46c9-4186-b086-b1f78881ae6c"
+					(reference "D7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "CLS6B-FKW_1")
+		(lib_id "LED:CLS6B-FKW")
+		(at 34.29 35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9503c3d8-ba39-497c-b516-6f6bc974757e")
+		(property "Reference" "D1"
+			(at 34.29 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CLS6B-FKW"
+			(at 34.29 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_RGB_5050-6"
+			(at 24.892 59.944 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.cree.com/led-components/media/documents/CLS6B-FKW.pdf"
+			(at 26.162 64.262 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Cree PLCC6 3 in 1 SMD LED, PLCC-6"
+			(at 42.164 71.628 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "689a39c6-fdac-43cd-80bd-57ae6335fe91")
+		)
+		(pin "5"
+			(uuid "3028b644-a37f-43dc-b531-a3e48af53a1a")
+		)
+		(pin "3"
+			(uuid "aaea340a-3fc2-40ca-a762-f70914de7fc3")
+		)
+		(pin "2"
+			(uuid "9ea1f59a-34c6-448f-b2b7-d832c792cb77")
+		)
+		(pin "4"
+			(uuid "5e0ae964-f849-4e0b-be2e-d4b759562eb0")
+		)
+		(pin "6"
+			(uuid "1f019629-a6ce-4104-9b09-96eefccf4e30")
+		)
+		(instances
+			(project "LED Board"
+				(path "/bf83d7eb-46c9-4186-b086-b1f78881ae6c"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "CLS6B-FKW_1")
+		(lib_id "LED:CLS6B-FKW")
+		(at 156.21 35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9688d00e-c88f-4209-9e0e-5364e6a17966")
+		(property "Reference" "D9"
+			(at 156.21 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CLS6B-FKW"
+			(at 156.21 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_RGB_5050-6"
+			(at 146.812 59.944 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.cree.com/led-components/media/documents/CLS6B-FKW.pdf"
+			(at 148.082 64.262 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Cree PLCC6 3 in 1 SMD LED, PLCC-6"
+			(at 164.084 71.628 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cf48973f-0988-4ed8-84ea-a5735c83061e")
+		)
+		(pin "5"
+			(uuid "52346e44-fbb7-4c7e-9ac9-dc63fc287a55")
+		)
+		(pin "3"
+			(uuid "f83495ee-85ca-454d-a6be-4de934c247db")
+		)
+		(pin "2"
+			(uuid "1f2d4583-85c3-4d25-a470-5ef6e485f047")
+		)
+		(pin "4"
+			(uuid "46122c8a-ba15-4f43-a5e7-5a4ba80f9be8")
+		)
+		(pin "6"
+			(uuid "982eadf0-45e1-4c98-9982-2f8cf5991bfc")
+		)
+		(instances
+			(project "LED Board"
+				(path "/bf83d7eb-46c9-4186-b086-b1f78881ae6c"
+					(reference "D9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "CLS6B-FKW_1")
+		(lib_id "LED:CLS6B-FKW")
+		(at 49.53 35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9c63efb4-7066-4df6-a901-06b9df6efd53")
+		(property "Reference" "D2"
+			(at 49.53 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CLS6B-FKW"
+			(at 49.53 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_RGB_5050-6"
+			(at 40.132 59.944 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.cree.com/led-components/media/documents/CLS6B-FKW.pdf"
+			(at 41.402 64.262 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Cree PLCC6 3 in 1 SMD LED, PLCC-6"
+			(at 57.404 71.628 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d9038ede-968d-41b7-bdb6-27fef976407f")
+		)
+		(pin "5"
+			(uuid "f085fd53-ad2b-4069-b413-3e130e3beaba")
+		)
+		(pin "3"
+			(uuid "54339124-c004-4d35-bffc-8667eb4a2bd4")
+		)
+		(pin "2"
+			(uuid "ae1cfe05-7621-4944-a871-db7f0b72a58a")
+		)
+		(pin "4"
+			(uuid "b08dd14b-499a-43ec-a2b5-8ff8b081fde4")
+		)
+		(pin "6"
+			(uuid "ed79f5bb-de5e-48a2-b912-7d4c670a9a53")
+		)
+		(instances
+			(project "LED Board"
+				(path "/bf83d7eb-46c9-4186-b086-b1f78881ae6c"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "CLS6B-FKW_1")
+		(lib_id "LED:CLS6B-FKW")
+		(at 48.26 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a1e7e3c6-637d-412a-a74f-90718cdc8aad")
+		(property "Reference" "D22"
+			(at 48.26 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CLS6B-FKW"
+			(at 48.26 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_RGB_5050-6"
+			(at 38.862 98.044 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.cree.com/led-components/media/documents/CLS6B-FKW.pdf"
+			(at 40.132 102.362 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Cree PLCC6 3 in 1 SMD LED, PLCC-6"
+			(at 56.134 109.728 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3d04a673-84e9-4eed-a172-ee7dc18a133a")
+		)
+		(pin "5"
+			(uuid "b04caff7-0049-4696-a44c-1e37d7850c30")
+		)
+		(pin "3"
+			(uuid "a2a1e4d6-238f-46e8-b72b-21f789f45053")
+		)
+		(pin "2"
+			(uuid "549e6fb6-3ceb-4877-8b28-f0466851cb34")
+		)
+		(pin "4"
+			(uuid "a2bb8442-82a6-4329-81bc-f078a656a3a0")
+		)
+		(pin "6"
+			(uuid "671b87e9-9eff-429c-b575-5d7bd1e69de5")
+		)
+		(instances
+			(project "LED Board"
+				(path "/bf83d7eb-46c9-4186-b086-b1f78881ae6c"
+					(reference "D22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "CLS6B-FKW_1")
+		(lib_id "LED:CLS6B-FKW")
+		(at 78.74 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a878ead2-bd6b-4d24-b429-8f303521bbb7")
+		(property "Reference" "D24"
+			(at 78.74 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CLS6B-FKW"
+			(at 78.74 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_RGB_5050-6"
+			(at 69.342 98.044 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.cree.com/led-components/media/documents/CLS6B-FKW.pdf"
+			(at 70.612 102.362 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Cree PLCC6 3 in 1 SMD LED, PLCC-6"
+			(at 86.614 109.728 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "947e71d8-f867-40a4-8541-b6fe9cfe3481")
+		)
+		(pin "5"
+			(uuid "9a904729-d86f-4c2f-8150-fc4df16cb3a4")
+		)
+		(pin "3"
+			(uuid "1d52db54-fbd1-4da7-ac1c-0e1488b7bbef")
+		)
+		(pin "2"
+			(uuid "758582f8-c66e-4843-9d85-aa5cf6e198a4")
+		)
+		(pin "4"
+			(uuid "78fd289d-f4aa-4abe-958f-ca14d6a6ce69")
+		)
+		(pin "6"
+			(uuid "a1eb5860-2233-4ef7-80f0-51f18c1d16c2")
+		)
+		(instances
+			(project "LED Board"
+				(path "/bf83d7eb-46c9-4186-b086-b1f78881ae6c"
+					(reference "D24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "CLS6B-FKW_1")
+		(lib_id "LED:CLS6B-FKW")
+		(at 124.46 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b6002d2e-ce4f-4a93-95ca-3f318f8de4e7")
+		(property "Reference" "D27"
+			(at 124.46 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CLS6B-FKW"
+			(at 124.46 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_RGB_5050-6"
+			(at 115.062 98.044 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.cree.com/led-components/media/documents/CLS6B-FKW.pdf"
+			(at 116.332 102.362 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Cree PLCC6 3 in 1 SMD LED, PLCC-6"
+			(at 132.334 109.728 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3d14b8af-ecfa-45ff-97ae-4ed6fe22e47e")
+		)
+		(pin "5"
+			(uuid "194bc355-bed3-47e2-a3ce-1d21e876a234")
+		)
+		(pin "3"
+			(uuid "0a600ac1-103b-4fd3-8dbd-70eb17aaa78e")
+		)
+		(pin "2"
+			(uuid "06d059ec-c28e-4bf6-8031-828b7afe77cb")
+		)
+		(pin "4"
+			(uuid "2a3e3f38-fd3e-4563-9ec2-256aef4125d0")
+		)
+		(pin "6"
+			(uuid "a2d0d6f6-f740-43b0-89d7-20d8516631ee")
+		)
+		(instances
+			(project "LED Board"
+				(path "/bf83d7eb-46c9-4186-b086-b1f78881ae6c"
+					(reference "D27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "CLS6B-FKW_1")
+		(lib_id "LED:CLS6B-FKW")
+		(at 125.73 54.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bdff2a0f-9b40-4527-be04-54173d81c020")
+		(property "Reference" "D17"
+			(at 125.73 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CLS6B-FKW"
+			(at 125.73 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_RGB_5050-6"
+			(at 116.332 78.994 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.cree.com/led-components/media/documents/CLS6B-FKW.pdf"
+			(at 117.602 83.312 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Cree PLCC6 3 in 1 SMD LED, PLCC-6"
+			(at 133.604 90.678 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1bc49e98-d664-42b3-9f3f-320aa24f7f8b")
+		)
+		(pin "5"
+			(uuid "85746706-0ee9-40c1-9b9d-cc70023a53e5")
+		)
+		(pin "3"
+			(uuid "c16abf7f-20b6-4be9-92c4-51e4007aae93")
+		)
+		(pin "2"
+			(uuid "d69069ef-8520-4368-93ff-dca6ad0e8514")
+		)
+		(pin "4"
+			(uuid "531b9859-9cbe-4473-98b1-e93936d87a30")
+		)
+		(pin "6"
+			(uuid "8eee8957-a8e0-4fd3-b8b5-1ed12fd869e3")
+		)
+		(instances
+			(project "LED Board"
+				(path "/bf83d7eb-46c9-4186-b086-b1f78881ae6c"
+					(reference "D17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 88.9 92.71 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cc4333ca-8a2b-4d82-92cb-ec9ac41a71b6")
+		(property "Reference" "H2"
+			(at 91.44 91.4399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "M3"
+			(at 91.44 93.9799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
+			(at 88.9 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 88.9 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 88.9 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "LED Board"
+				(path "/bf83d7eb-46c9-4186-b086-b1f78881ae6c"
+					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "CLS6B-FKW_1")
+		(lib_id "LED:CLS6B-FKW")
+		(at 154.94 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ceeb308d-b068-45ee-881e-f86297f863e7")
+		(property "Reference" "D29"
+			(at 154.94 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CLS6B-FKW"
+			(at 154.94 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_RGB_5050-6"
+			(at 145.542 98.044 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.cree.com/led-components/media/documents/CLS6B-FKW.pdf"
+			(at 146.812 102.362 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Cree PLCC6 3 in 1 SMD LED, PLCC-6"
+			(at 162.814 109.728 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5529f771-1a13-40e8-b445-cd758ca3b251")
+		)
+		(pin "5"
+			(uuid "f822f22d-2a7e-43a1-98f8-e5008841936c")
+		)
+		(pin "3"
+			(uuid "79fcee11-080d-442e-9278-634b291be996")
+		)
+		(pin "2"
+			(uuid "03da2e67-d2e7-4a8c-aeb4-5594e6384ebd")
+		)
+		(pin "4"
+			(uuid "7b65f815-3b35-480e-9962-c4785790c9b6")
+		)
+		(pin "6"
+			(uuid "35634334-2ebb-42b0-a680-2777cbc4d5a7")
+		)
+		(instances
+			(project "LED Board"
+				(path "/bf83d7eb-46c9-4186-b086-b1f78881ae6c"
+					(reference "D29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "CLS6B-FKW_1")
+		(lib_id "LED:CLS6B-FKW")
+		(at 64.77 35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cf2521b3-53c0-4bd7-a5b7-7a4978eb363e")
+		(property "Reference" "D3"
+			(at 64.77 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CLS6B-FKW"
+			(at 64.77 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_RGB_5050-6"
+			(at 55.372 59.944 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.cree.com/led-components/media/documents/CLS6B-FKW.pdf"
+			(at 56.642 64.262 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Cree PLCC6 3 in 1 SMD LED, PLCC-6"
+			(at 72.644 71.628 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cc30e4ba-5570-4446-b926-d6b63aa4fb3d")
+		)
+		(pin "5"
+			(uuid "5a057b35-7e6b-4ab7-a45d-689892f7611e")
+		)
+		(pin "3"
+			(uuid "12803a02-631b-47dc-84b1-80859d33fc84")
+		)
+		(pin "2"
+			(uuid "3240ddba-c86d-4e44-8626-742198c2f67f")
+		)
+		(pin "4"
+			(uuid "047a737d-8e8d-46c7-8170-6aa945e05243")
+		)
+		(pin "6"
+			(uuid "c0633f64-61d1-4a78-a04b-ab33238008c7")
+		)
+		(instances
+			(project "LED Board"
+				(path "/bf83d7eb-46c9-4186-b086-b1f78881ae6c"
+					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "CLS6B-FKW_1")
+		(lib_id "LED:CLS6B-FKW")
+		(at 156.21 54.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e4f8c121-0692-4387-a479-5e4fb0274565")
+		(property "Reference" "D19"
+			(at 156.21 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CLS6B-FKW"
+			(at 156.21 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_RGB_5050-6"
+			(at 146.812 78.994 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.cree.com/led-components/media/documents/CLS6B-FKW.pdf"
+			(at 148.082 83.312 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Cree PLCC6 3 in 1 SMD LED, PLCC-6"
+			(at 164.084 90.678 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9296d56a-321c-4d7b-931e-dc6ff51d8854")
+		)
+		(pin "5"
+			(uuid "4278d6e0-aefe-4308-8fbf-3a112af66756")
+		)
+		(pin "3"
+			(uuid "8147f5a5-7eae-468a-80b4-27a024123f33")
+		)
+		(pin "2"
+			(uuid "8aa93e08-32e7-42d8-97f2-c50b168515fa")
+		)
+		(pin "4"
+			(uuid "0f7c209c-be28-46db-80a2-828597907b57")
+		)
+		(pin "6"
+			(uuid "14a84e1f-5e0f-4b4e-a602-6315899d3fb2")
+		)
+		(instances
+			(project "LED Board"
+				(path "/bf83d7eb-46c9-4186-b086-b1f78881ae6c"
+					(reference "D19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "CLS6B-FKW_1")
+		(lib_id "LED:CLS6B-FKW")
+		(at 171.45 54.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e557dc18-adff-49de-a836-5a6aa0a82229")
+		(property "Reference" "D20"
+			(at 171.45 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CLS6B-FKW"
+			(at 171.45 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_RGB_5050-6"
+			(at 162.052 78.994 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.cree.com/led-components/media/documents/CLS6B-FKW.pdf"
+			(at 163.322 83.312 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Cree PLCC6 3 in 1 SMD LED, PLCC-6"
+			(at 179.324 90.678 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2cc9eab2-70f8-4545-90f2-8072c9b8d0ff")
+		)
+		(pin "5"
+			(uuid "4550520d-3073-44e6-accd-b4072b08cd1c")
+		)
+		(pin "3"
+			(uuid "07151aba-8816-4ab2-96a0-41ca0d6e237a")
+		)
+		(pin "2"
+			(uuid "3fd0cc6f-ed64-443d-9925-1a3896734ef5")
+		)
+		(pin "4"
+			(uuid "10bc42f0-503c-473b-b9a7-579f893c6dfc")
+		)
+		(pin "6"
+			(uuid "f7e65b3e-371c-482c-9a8c-d1d9b575cc26")
+		)
+		(instances
+			(project "LED Board"
+				(path "/bf83d7eb-46c9-4186-b086-b1f78881ae6c"
+					(reference "D20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "CLS6B-FKW_1")
+		(lib_id "LED:CLS6B-FKW")
+		(at 95.25 54.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f029bc06-c033-48e6-8e92-e6181307c2e2")
+		(property "Reference" "D15"
+			(at 95.25 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CLS6B-FKW"
+			(at 95.25 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_RGB_5050-6"
+			(at 85.852 78.994 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.cree.com/led-components/media/documents/CLS6B-FKW.pdf"
+			(at 87.122 83.312 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Cree PLCC6 3 in 1 SMD LED, PLCC-6"
+			(at 103.124 90.678 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0e3e741d-9044-4cab-91ce-8b62260649a3")
+		)
+		(pin "5"
+			(uuid "9da30152-d665-421b-acb7-f72a50488748")
+		)
+		(pin "3"
+			(uuid "dd6413d8-049c-4668-b532-843fe56f2e33")
+		)
+		(pin "2"
+			(uuid "32d76b3c-d080-402c-997f-699e8c30b648")
+		)
+		(pin "4"
+			(uuid "540f2948-42b0-4177-aa00-ed77fb8a3906")
+		)
+		(pin "6"
+			(uuid "b4f4fd76-3563-47a6-9f02-3822418fcb3d")
+		)
+		(instances
+			(project "LED Board"
+				(path "/bf83d7eb-46c9-4186-b086-b1f78881ae6c"
+					(reference "D15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "CLS6B-FKW_1")
+		(lib_id "LED:CLS6B-FKW")
+		(at 109.22 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fc5ba89c-9abc-4cbf-bc2a-146f4f67cf1f")
+		(property "Reference" "D26"
+			(at 109.22 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CLS6B-FKW"
+			(at 109.22 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_RGB_5050-6"
+			(at 99.822 98.044 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.cree.com/led-components/media/documents/CLS6B-FKW.pdf"
+			(at 101.092 102.362 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Cree PLCC6 3 in 1 SMD LED, PLCC-6"
+			(at 117.094 109.728 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a681db91-5b79-4487-b914-720890999767")
+		)
+		(pin "5"
+			(uuid "e3490e16-a391-4f14-a6a0-c97274dd6122")
+		)
+		(pin "3"
+			(uuid "7a619283-a8a6-49e3-8ab9-bc17037fc5df")
+		)
+		(pin "2"
+			(uuid "a3d5e62f-1223-4ba7-9ccf-7974e58ca83c")
+		)
+		(pin "4"
+			(uuid "25240628-7e5c-4118-9a96-e0642e0ea684")
+		)
+		(pin "6"
+			(uuid "f58c0c4e-e22c-4df9-9db9-c2210720cd09")
+		)
+		(instances
+			(project "LED Board"
+				(path "/bf83d7eb-46c9-4186-b086-b1f78881ae6c"
+					(reference "D26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
